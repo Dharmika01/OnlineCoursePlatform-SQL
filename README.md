@@ -138,6 +138,46 @@ You may include screenshots or exported `.csv` files from MySQL Workbench showin
 
 ---
 
+## 📊 Task 4: Aggregate Functions and Grouping
+
+### 🎯 Objective:
+Use aggregate functions like `SUM`, `COUNT`, `AVG`, and grouping (`GROUP BY`, `HAVING`) to summarize platform data.
+
+### 📂 Files:
+- `aggregate_queries.sql` – All aggregation queries
+- `README.md` – Explanation of the task
+- `screenshots/` – Output screenshots (optional)
+
+### ✅ Queries Covered:
+- Total revenue from payments
+- User count by type (students/instructors)
+- Average course price per category
+- Total enrollments per course
+- Courses with more than 2 enrollments (`HAVING`)
+- Total amount paid by each user
+- Review count and average rating per course
+
+## 🖼️ Optional Output (for GitHub)
+
+You may include screenshots or exported `.csv` files from MySQL Workbench showing:
+
+![Screenshot 2025-06-27 114857](https://github.com/user-attachments/assets/8fe50225-2f74-42ea-a65f-0e04bb49e1c9)
+
+![Screenshot 2025-06-27 115005](https://github.com/user-attachments/assets/73190c31-234c-467b-be2d-9a7240727d04)
+
+![Screenshot 2025-06-27 115033](https://github.com/user-attachments/assets/83b6a459-7829-4cd0-9b64-9c5fcafcf74d)
+
+![Screenshot 2025-06-27 115055](https://github.com/user-attachments/assets/8a9fcbd7-f365-4f05-9935-a43ecfc7c882)
+
+![Screenshot 2025-06-27 115150](https://github.com/user-attachments/assets/2c06e82f-36b3-41d5-a88c-7b916e29f6a5)
+
+![Screenshot 2025-06-27 115203](https://github.com/user-attachments/assets/fa7fbbbb-424c-45c6-bcf2-ff67d769d3f8)
+
+![Screenshot 2025-06-27 115219](https://github.com/user-attachments/assets/902ac703-6794-42de-bf47-154a16efadcb)
+
+![Screenshot 2025-06-27 115236](https://github.com/user-attachments/assets/58ff91e5-38f6-487e-947c-cf7194e7dde4)
+
+
 ## 👩‍💻 Author
 
 **Katta Dharmika**
