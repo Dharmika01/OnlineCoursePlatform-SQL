@@ -6,36 +6,7 @@ This repository contains a complete SQL project simulating a real-world **Online
 
 ## 📁 Project Structure
 
-OnlineCoursePlatform-Internship/
-│
-├── README.md # Full project summary (this file)
-├── ER_Diagram.png # Optional: Entity Relationship diagram
-│
-├── task1_schema_design/
-│ ├── create_schema.sql
-│ ├── ER_Diagram.png
-│ └── README.md
-│
-├── task2_data_insertion/
-│ ├── data_manipulation.sql
-│ ├── screenshots/
-│ └── README.md
-│
-├── task3_basic_select/
-│ ├── basic_select_queries.sql
-│ ├── screenshots/
-│ └── README.md
-│
-├── task4_aggregates_grouping/
-│ ├── aggregate_queries.sql
-│ ├── screenshots/
-│ └── README.md
-│
-├── task5_sql_joins/
-│ ├── join_queries.sql
-│ ├── screenshots/
-│__|── README.md
-
+<pre> ``` OnlineCoursePlatform-Internship/ │ ├── README.md # Full project summary (this file) ├── ER_Diagram.png # Optional: Entity Relationship diagram │ ├── task1_schema_design/ │ ├── create_schema.sql │ ├── ER_Diagram.png │ └── README.md │ ├── task2_data_insertion/ │ ├── data_manipulation.sql │ ├── screenshots/ │ └── README.md │ ├── task3_basic_select/ │ ├── basic_select_queries.sql │ ├── screenshots/ │ └── README.md │ ├── task4_aggregates_grouping/ │ ├── aggregate_queries.sql │ ├── screenshots/ │ └── README.md │ ├── task5_sql_joins/ │ ├── join_queries.sql │ ├── screenshots/ │ └── README.md ``` </pre>
 ---
 
 ## 🧱 What This Project Includes
