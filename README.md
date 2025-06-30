@@ -201,6 +201,61 @@ You may include screenshots or exported `.csv` files from MySQL Workbench showin
 ![Screenshot 2025-06-27 115236](https://github.com/user-attachments/assets/58ff91e5-38f6-487e-947c-cf7194e7dde4)
 
 
+# 🔗 Task 5: SQL Joins (Inner, Left, Right, Full)
+
+## 🎯 Objective
+To practice combining data across multiple tables using different types of SQL joins in the **Online Course Platform** database.
+
+---
+
+## 📂 Files
+- `join_queries.sql` – Contains queries using INNER, LEFT, RIGHT, FULL JOINs (simulated), and multi-table joins
+- `screenshots/` – Screenshots of JOIN query outputs (included below)
+
+---
+
+## ✅ Queries Covered
+
+1. **INNER JOIN** – List courses along with instructor names  
+2. **LEFT JOIN** – Show all courses and their reviews (even if no reviews exist)  
+3. **RIGHT JOIN** – Show all reviews and associated course titles (if supported)  
+4. **Simulated FULL OUTER JOIN** – Combine LEFT and RIGHT using `UNION`  
+5. **3-Table JOIN** – Show which student enrolled in which course using `JOIN` on `Enrollments`, `Users`, and `Courses`  
+
+---
+
+## 🧠 Key Concepts Practiced
+
+- INNER vs LEFT vs RIGHT JOIN
+- Simulating FULL OUTER JOIN in MySQL
+- Combining data across multiple related tables
+- Using aliases for readability
+- Filtering joined data using WHERE
+
+---
+
+## 🖼️ Output Screenshots (JOIN Query Results)
+
+Include screenshots from MySQL Workbench results for each JOIN query:
+
+### 📌 INNER JOIN – Courses with Instructors
+![inner_join_courses_instructors](https://github.com/yourusername/yourrepo/assets/your-asset-id-1)
+
+### 📌 LEFT JOIN – Courses with Reviews (Including Nulls)
+![left_join_courses_reviews](https://github.com/yourusername/yourrepo/assets/your-asset-id-2)
+
+### 📌 RIGHT JOIN – Reviews with Course Titles
+![right_join_reviews_courses](https://github.com/yourusername/yourrepo/assets/your-asset-id-3)
+
+### 📌 FULL OUTER JOIN (Simulated)
+![full_outer_join_simulated](https://github.com/yourusername/yourrepo/assets/your-asset-id-4)
+
+### 📌 3-Table JOIN – Students with Enrolled Courses
+![three_table_join_students_courses](https://github.com/yourusername/yourrepo/assets/your-asset-id-5)
+
+---
+
+
 ## 👩‍💻 Author
 
 **Katta Dharmika**
