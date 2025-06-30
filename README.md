@@ -239,19 +239,24 @@ To practice combining data across multiple tables using different types of SQL j
 Include screenshots from MySQL Workbench results for each JOIN query:
 
 ### 📌 INNER JOIN – Courses with Instructors
-![inner_join_courses_instructors](https://github.com/yourusername/yourrepo/assets/your-asset-id-1)
+![Screenshot 2025-06-30 100955](https://github.com/user-attachments/assets/1b5cc7b0-f19d-40d0-8763-66c528c920be)
+
 
 ### 📌 LEFT JOIN – Courses with Reviews (Including Nulls)
-![left_join_courses_reviews](https://github.com/yourusername/yourrepo/assets/your-asset-id-2)
+![Screenshot 2025-06-30 101047](https://github.com/user-attachments/assets/91546351-cf4b-4a22-8c30-74454bb69b32)
+
 
 ### 📌 RIGHT JOIN – Reviews with Course Titles
-![right_join_reviews_courses](https://github.com/yourusername/yourrepo/assets/your-asset-id-3)
+![Screenshot 2025-06-30 101140](https://github.com/user-attachments/assets/67254721-1d6b-4517-b86d-d17a53f2f25e)
+
 
 ### 📌 FULL OUTER JOIN (Simulated)
-![full_outer_join_simulated](https://github.com/yourusername/yourrepo/assets/your-asset-id-4)
+![Screenshot 2025-06-30 101304](https://github.com/user-attachments/assets/1cf7c088-0295-4b69-8baf-169b71230c07)
+
 
 ### 📌 3-Table JOIN – Students with Enrolled Courses
-![three_table_join_students_courses](https://github.com/yourusername/yourrepo/assets/your-asset-id-5)
+![Screenshot 2025-06-30 101811](https://github.com/user-attachments/assets/1d902259-87bb-4e35-ae2f-5ee057b9d1da)
+
 
 ---
 
