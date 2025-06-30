@@ -6,35 +6,66 @@ This repository contains a complete SQL project simulating a real-world **Online
 
 ## 📁 Project Structure
 
-OnlineCoursePlatform-Internship/
-│
-├── README.md # Full project summary (this file)
-├── ER_Diagram.png # Optional: Entity Relationship diagram
-│
-├── task1_schema_design/
-│ ├── create_schema.sql
-│ ├── ER_Diagram.png
-│ └── README.md
-│
-├── task2_data_insertion/
-│ ├── data_manipulation.sql
-│ ├── screenshots/
-│ └── README.md
-│
-├── task3_basic_select/
-│ ├── basic_select_queries.sql
-│ ├── screenshots/
-│ └── README.md
-│
-├── task4_aggregates_grouping/
-│ ├── aggregate_queries.sql
-│ ├── screenshots/
-│ └── README.md
-│
-├── task5_sql_joins/
-│ ├── join_queries.sql
-│ ├── screenshots/
-│ └── README.md
+
+<details>
+<summary>📄 README.md</summary>
+
+- Full project summary (combined for all tasks)
+
+</details>
+
+<details>
+<summary>📄 ER_Diagram.png</summary>
+
+- Optional: Entity Relationship diagram used in Task 1
+
+</details>
+
+<details>
+<summary>📂 task1_schema_design/</summary>
+
+- `create_schema.sql` – SQL script to create tables and relationships  
+- `ER_Diagram.png` – (Optional) ER diagram specific to task  
+- `README.md` – Task 1-specific explanation  
+
+</details>
+
+<details>
+<summary>📂 task2_data_insertion/</summary>
+
+- `data_manipulation.sql` – INSERT, UPDATE, DELETE statements  
+- `screenshots/` – (Optional) output of manipulation commands  
+- `README.md` – Task 2-specific explanation  
+
+</details>
+
+<details>
+<summary>📂 task3_basic_select/</summary>
+
+- `basic_select_queries.sql` – SELECT queries (WHERE, LIKE, ORDER BY, etc.)  
+- `screenshots/` – (Optional) query output screenshots  
+- `README.md` – Task 3-specific explanation  
+
+</details>
+
+<details>
+<summary>📂 task4_aggregates_grouping/</summary>
+
+- `aggregate_queries.sql` – GROUP BY, COUNT, SUM, HAVING, etc.  
+- `screenshots/` – (Optional) output for aggregation queries  
+- `README.md` – Task 4-specific explanation  
+
+</details>
+
+<details>
+<summary>📂 task5_sql_joins/</summary>
+
+- `join_queries.sql` – INNER JOIN, LEFT JOIN, FULL JOIN, etc.  
+- `screenshots/` – (Optional) JOIN query outputs  
+- `README.md` – Task 5-specific explanation  
+
+</details>
+
 
 ---
 
