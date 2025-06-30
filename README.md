@@ -1,268 +1,107 @@
-# 🎓 Online Course Platform - SQL Project
+# 🎓 Online Course Platform – SQL Developer Internship Project
 
-This project simulates a real-world **Online Course Platform** built using **MySQL**. It includes schema design, data insertion, handling nulls, and writing SELECT queries to demonstrate core SQL skills.
-
----
-
-## 📁 Project Overview
-
-### 🧱 What It Includes:
-- ✅ **Relational schema** with normalized tables
-- ✅ **Data Insertion**, **Updating**, and **Deletion**
-- ✅ Handling of **NULLs** and **Constraints**
-- ✅ Writing `SELECT`, `WHERE`, `ORDER BY`, `LIKE`, `BETWEEN`, etc.
-- ✅ Clean ER diagram
-- ✅ Output screenshots (optional)
+This repository contains a complete SQL project simulating a real-world **Online Course Platform**, designed during a **SQL Developer Internship**. It covers everything from database design to data insertion, querying, aggregation, and joins using **MySQL**.
 
 ---
 
-## 🧩 Database Schema: `OnlineCoursePlatform`
+## 📁 Project Structure
 
-The schema includes the following entities:
+OnlineCoursePlatform-Internship/
+│
+├── README.md # Full project summary (this file)
+├── ER_Diagram.png # Optional: Entity Relationship diagram
+│
+├── task1_schema_design/
+│ ├── create_schema.sql
+│ ├── ER_Diagram.png
+│ └── README.md
+│
+├── task2_data_insertion/
+│ ├── data_manipulation.sql
+│ ├── screenshots/
+│ └── README.md
+│
+├── task3_basic_select/
+│ ├── basic_select_queries.sql
+│ ├── screenshots/
+│ └── README.md
+│
+├── task4_aggregates_grouping/
+│ ├── aggregate_queries.sql
+│ ├── screenshots/
+│ └── README.md
+│
+├── task5_sql_joins/
+│ ├── join_queries.sql
+│ ├── screenshots/
+│__|── README.md
 
-| Table        | Description                            |
-|--------------|----------------------------------------|
-| `Users`      | Students and instructors               |
-| `Courses`    | Courses created by instructors         |
-| `Enrollments`| Students enrolled in courses           |
-| `Categories` | Course categories                      |
-| `Payments`   | Payment records for enrollments        |
-| `Reviews`    | Feedback and ratings from students     |
+---
+
+## 🧱 What This Project Includes
+
+- ✅ Relational schema with normalized tables
+- ✅ Table creation using DDL (`CREATE TABLE`, `PRIMARY KEY`, `FOREIGN KEY`)
+- ✅ Data insertion, update, and delete operations
+- ✅ Handling of `NULL` values and constraints
+- ✅ Writing SELECT queries with filters, sorting, and conditions
+- ✅ Use of aggregate functions and `GROUP BY`, `HAVING`
+- ✅ Joining multiple tables using `INNER`, `LEFT`, `RIGHT`, and simulated `FULL JOIN`
+- ✅ Output screenshots for visual verification (optional)
+
+---
+
+## 🧩 Database Schema Overview
+
+| Table         | Description                          |
+|---------------|--------------------------------------|
+| `Users`       | Students and instructors             |
+| `Courses`     | Courses created by instructors       |
+| `Enrollments` | Students enrolled in courses         |
+| `Categories`  | Categories for classifying courses   |
+| `Payments`    | Payment records for enrollments      |
+| `Reviews`     | Ratings and feedback from students   |
 
 ---
 
 ## ⚙️ Technologies Used
 
-- MySQL 8.0
-- MySQL Workbench
-- GitHub
+- **Database**: MySQL 8.0
+- **IDE**: MySQL Workbench
+- **Version Control**: Git & GitHub
 
 ---
 
-## 🧾 Task 1: Schema Design
+## 🗂️ Tasks Breakdown
 
-### 🎯 Objective:
-Create the database and define all relationships using DDL (`CREATE TABLE`, primary/foreign keys).
+### ✅ Task 1: Schema Design
+- Designed relational schema and defined constraints.
+- Created tables for users, courses, categories, enrollments, payments, and reviews.
 
-### 📂 Files:
-- `create_schema.sql` – SQL to create tables and relationships
-- `ER_Diagram.png` – Visual diagram of schema
-- `README.md` – Project summary
+### ✅ Task 2: Data Insertion and Null Handling
+- Inserted realistic sample data.
+- Performed UPDATE and DELETE operations.
+- Managed `NULL` values in optional fields.
 
-### ✅ Steps:
-1. Open MySQL Workbench
-2. Connect to local MySQL Server
-3. Run `create_schema.sql`
-4. View relationships via "Reverse Engineer" to generate ER diagram
+### ✅ Task 3: Basic SELECT Queries
+- Used `SELECT`, `WHERE`, `LIKE`, `BETWEEN`, `ORDER BY`, `LIMIT`, `DISTINCT`, and more.
+- Extracted and filtered platform data.
 
----
+### ✅ Task 4: Aggregation and Grouping
+- Used `COUNT`, `SUM`, `AVG`, `GROUP BY`, and `HAVING`.
+- Summarized data like user counts, revenue, enrollments, ratings.
 
-## ✍️ Task 2: Data Insertion and Null Handling
-
-### 🎯 Objective:
-Practice `INSERT`, `UPDATE`, and `DELETE` operations along with NULL value handling.
-
-### 📂 Files:
-- `data_manipulation.sql` – Contains all DML (INSERT, UPDATE, DELETE) statements
-- `README.md` – Describes work done and tools used
-
-### ✅ Key Actions:
-- Inserted real-looking sample data into all tables
-- Updated course prices and user emails
-- Handled `NULL` values in user passwords and review comments
-- Deleted records based on conditions (`WHERE`, `IS NULL`)
-- Demonstrated data cleaning and consistency handling
+### ✅ Task 5: SQL Joins
+- Applied `INNER`, `LEFT`, `RIGHT`, and `FULL OUTER JOIN (UNION)` techniques.
+- Merged tables to get combined insights like:
+  - Which students enrolled in which course
+  - Courses and reviews
+  - Instructor–course relationships
 
 ---
-
-## 🔍 Task 3: Basic SELECT Queries
-
-### 🎯 Objective:
-Write SQL queries to extract and filter data using SELECT, WHERE, LIKE, BETWEEN, ORDER BY, etc.
-
-### 📂 Files:
-- `basic_select_queries.sql` – All SELECT queries
-- `README.md` – Explanation of the task
-- `screenshots/` – Optional outputs from query results (e.g., users, courses, reviews)
-
-### ✅ Queries Covered:
-- `SELECT *` and specific columns
-- Filtering with `WHERE`, `AND`, `OR`
-- Using `LIKE '%value%'`
-- Range filtering with `BETWEEN`
-- Sorting using `ORDER BY ASC/DESC`
-- Limiting output rows using `LIMIT`
-- Using `IN` vs `=`
-- Applying `DISTINCT` to remove duplicates
-- Aliasing columns using `AS`
-
----
-
-## 🖼️ Optional Output (for GitHub)
-
-You may include screenshots or exported `.csv` files from MySQL Workbench showing:
-
-![Screenshot 2025-06-26 191143](https://github.com/user-attachments/assets/9e3708c7-624c-4c09-ac88-a65d574cd741)
-
-
-![Screenshot 2025-06-26 191155](https://github.com/user-attachments/assets/6bae03ae-1d2e-49a9-89b2-f166acb6762f)
-
-
-![Screenshot 2025-06-26 191207](https://github.com/user-attachments/assets/6817de17-4790-4cdd-a41e-051d615bc742)
-
-
-![Screenshot 2025-06-26 191220](https://github.com/user-attachments/assets/e8419625-3361-4fba-9992-2e983f07e203)
-
-
-![Screenshot 2025-06-26 191233](https://github.com/user-attachments/assets/3bd2f925-ef3f-4e48-92b5-1edfa5688052)
-
-
-![Screenshot 2025-06-26 191245](https://github.com/user-attachments/assets/4e6a5c2e-04e6-4004-a303-aa46f0e1e710)
-
-
-![Screenshot 2025-06-26 191256](https://github.com/user-attachments/assets/1fbaf722-f004-4da2-87a2-b1b113bb3e0a)
-
-
-![Screenshot 2025-06-26 191322](https://github.com/user-attachments/assets/ced00141-2402-4cda-a4e4-f0494a4d56b4)
-
-
-![Screenshot 2025-06-26 191344](https://github.com/user-attachments/assets/29e7401e-300c-4bdf-848b-65a56bdfae11)
-
-
-![Screenshot 2025-06-26 191400](https://github.com/user-attachments/assets/ddde4852-c3f8-405f-8ab8-77dff83d129e)
-
-
-![Screenshot 2025-06-26 191414](https://github.com/user-attachments/assets/50cc0723-880a-4257-9fe6-aab073e20a1e)
-
-
-![Screenshot 2025-06-26 191426](https://github.com/user-attachments/assets/7dd91082-33a3-4e11-99a9-606f93762595)
-
-
-![Screenshot 2025-06-26 191457](https://github.com/user-attachments/assets/cf94354f-6aaa-475c-b626-a5f5f0522ce8)
-
-
-![Screenshot 2025-06-26 191520](https://github.com/user-attachments/assets/38ce9be2-b161-471c-a29f-b1d27afebbad)
-
-
-![Screenshot 2025-06-26 191531](https://github.com/user-attachments/assets/858dc053-0c57-45fd-a369-79c3ffbdcce6)
-
-
-![Screenshot 2025-06-26 191552](https://github.com/user-attachments/assets/c4653642-c1b0-4689-994d-0e7d1646b70b)
-
-
-![Screenshot 2025-06-26 191604](https://github.com/user-attachments/assets/57a5ff30-80dd-47da-bf5f-034e95383b96)
-
----
-
-## 📊 Task 4: Aggregate Functions and Grouping
-
-### 🎯 Objective:
-Use aggregate functions like `SUM`, `COUNT`, `AVG`, and grouping (`GROUP BY`, `HAVING`) to summarize platform data.
-
-### 📂 Files:
-- `aggregate_queries.sql` – All aggregation queries
-- `README.md` – Explanation of the task
-- `screenshots/` – Output screenshots (optional)
-
-### ✅ Queries Covered:
-- Total revenue from payments
-- User count by type (students/instructors)
-- Average course price per category
-- Total enrollments per course
-- Courses with more than 2 enrollments (`HAVING`)
-- Total amount paid by each user
-- Review count and average rating per course
-
-## 🖼️ Optional Output (for GitHub)
-
-You may include screenshots or exported `.csv` files from MySQL Workbench showing:
-
-![Screenshot 2025-06-27 114857](https://github.com/user-attachments/assets/8fe50225-2f74-42ea-a65f-0e04bb49e1c9)
-
-
-![Screenshot 2025-06-27 115005](https://github.com/user-attachments/assets/73190c31-234c-467b-be2d-9a7240727d04)
-
-
-![Screenshot 2025-06-27 115033](https://github.com/user-attachments/assets/83b6a459-7829-4cd0-9b64-9c5fcafcf74d)
-
-
-![Screenshot 2025-06-27 115055](https://github.com/user-attachments/assets/8a9fcbd7-f365-4f05-9935-a43ecfc7c882)
-
-
-![Screenshot 2025-06-27 115150](https://github.com/user-attachments/assets/2c06e82f-36b3-41d5-a88c-7b916e29f6a5)
-
-
-![Screenshot 2025-06-27 115203](https://github.com/user-attachments/assets/fa7fbbbb-424c-45c6-bcf2-ff67d769d3f8)
-
-
-![Screenshot 2025-06-27 115219](https://github.com/user-attachments/assets/902ac703-6794-42de-bf47-154a16efadcb)
-
-
-![Screenshot 2025-06-27 115236](https://github.com/user-attachments/assets/58ff91e5-38f6-487e-947c-cf7194e7dde4)
-
-
-# 🔗 Task 5: SQL Joins (Inner, Left, Right, Full)
-
-## 🎯 Objective
-To practice combining data across multiple tables using different types of SQL joins in the **Online Course Platform** database.
-
----
-
-## 📂 Files
-- `join_queries.sql` – Contains queries using INNER, LEFT, RIGHT, FULL JOINs (simulated), and multi-table joins
-- `screenshots/` – Screenshots of JOIN query outputs (included below)
-
----
-
-## ✅ Queries Covered
-
-1. **INNER JOIN** – List courses along with instructor names  
-2. **LEFT JOIN** – Show all courses and their reviews (even if no reviews exist)  
-3. **RIGHT JOIN** – Show all reviews and associated course titles (if supported)  
-4. **Simulated FULL OUTER JOIN** – Combine LEFT and RIGHT using `UNION`  
-5. **3-Table JOIN** – Show which student enrolled in which course using `JOIN` on `Enrollments`, `Users`, and `Courses`  
-
----
-
-## 🧠 Key Concepts Practiced
-
-- INNER vs LEFT vs RIGHT JOIN
-- Simulating FULL OUTER JOIN in MySQL
-- Combining data across multiple related tables
-- Using aliases for readability
-- Filtering joined data using WHERE
-
----
-
-## 🖼️ Output Screenshots (JOIN Query Results)
-
-Include screenshots from MySQL Workbench results for each JOIN query:
-
-### 📌 INNER JOIN – Courses with Instructors
-![Screenshot 2025-06-30 100955](https://github.com/user-attachments/assets/1b5cc7b0-f19d-40d0-8763-66c528c920be)
-
-
-### 📌 LEFT JOIN – Courses with Reviews (Including Nulls)
-![Screenshot 2025-06-30 101047](https://github.com/user-attachments/assets/91546351-cf4b-4a22-8c30-74454bb69b32)
-
-
-### 📌 RIGHT JOIN – Reviews with Course Titles
-![Screenshot 2025-06-30 101140](https://github.com/user-attachments/assets/67254721-1d6b-4517-b86d-d17a53f2f25e)
-
-
-### 📌 FULL OUTER JOIN (Simulated)
-![Screenshot 2025-06-30 101304](https://github.com/user-attachments/assets/1cf7c088-0295-4b69-8baf-169b71230c07)
-
-
-### 📌 3-Table JOIN – Students with Enrolled Courses
-![Screenshot 2025-06-30 101811](https://github.com/user-attachments/assets/1d902259-87bb-4e35-ae2f-5ee057b9d1da)
-
-
----
-
 
 ## 👩‍💻 Author
 
-**Katta Dharmika**
-
----
+**Katta Dharmika**  
+SQL Developer Intern  
+Passionate about data, analytics, and database design
