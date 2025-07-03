@@ -1,11 +1,10 @@
 # 🎓 Online Course Platform – SQL Developer Internship Project
 
-This repository contains a complete SQL project simulating a real-world **Online Course Platform**, designed during a **SQL Developer Internship**. It covers everything from database design to data insertion, querying, aggregation, and joins using **MySQL**.
+This repository contains a complete SQL project simulating a real-world **Online Course Platform**, designed during a **SQL Developer Internship**. It covers everything from database design to data insertion, querying, aggregation, joins, subqueries, and views using **MySQL**.
 
 ---
 
 ## 📁 Project Structure
-
 
 <details>
 <summary>📄 README.md</summary>
@@ -66,6 +65,23 @@ This repository contains a complete SQL project simulating a real-world **Online
 
 </details>
 
+<details>
+<summary>📂 task6_subqueries_nested/</summary>
+
+- `subquery_queries.sql` – Scalar, correlated, and nested subqueries  
+- `screenshots/` – (Optional) output screenshots  
+- `README.md` – Task 6-specific explanation  
+
+</details>
+
+<details>
+<summary>📂 task7_views/</summary>
+
+- `view_definitions.sql` – SQL scripts for creating and using views  
+- `screenshots/` – (Optional) SHOW TABLES and DROP VIEW output  
+- `README.md` – Task 7-specific explanation  
+
+</details>
 
 ---
 
@@ -78,6 +94,8 @@ This repository contains a complete SQL project simulating a real-world **Online
 - ✅ Writing SELECT queries with filters, sorting, and conditions
 - ✅ Use of aggregate functions and `GROUP BY`, `HAVING`
 - ✅ Joining multiple tables using `INNER`, `LEFT`, `RIGHT`, and simulated `FULL JOIN`
+- ✅ Advanced filtering using scalar, correlated, and nested subqueries
+- ✅ Data abstraction using SQL `VIEWS` for reuse and security
 - ✅ Output screenshots for visual verification (optional)
 
 ---
@@ -128,6 +146,25 @@ This repository contains a complete SQL project simulating a real-world **Online
   - Which students enrolled in which course
   - Courses and reviews
   - Instructor–course relationships
+
+### ✅ Task 6: Subqueries and Nested Queries
+- Practiced scalar and correlated subqueries.
+- Used subqueries in `SELECT`, `WHERE`, and `FROM` clauses.
+- Implemented `IN`, `EXISTS`, `NOT EXISTS`, and nested filtering.
+- Examples include:
+  - Top 3 students by enrollments
+  - Courses with no reviews
+  - Students who enrolled in all categories
+
+### ✅ Task 7: Creating Views
+- Created reusable SQL views for abstraction and simplification.
+- Included:
+  - Student enrollments view
+  - Instructor course view with category
+  - Payment summary per student
+  - Average course ratings
+  - Views with `WITH CHECK OPTION`
+  - Demonstrated how to drop and inspect views using `SHOW FULL TABLES`
 
 ---
 
